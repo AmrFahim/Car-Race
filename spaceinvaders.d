@@ -1,0 +1,10 @@
+.\spaceinvaders.o: SpaceInvaders.c
+.\spaceinvaders.o: Game_Driver.h
+.\spaceinvaders.o: delay_lib.h
+.\spaceinvaders.o: ADC_Driver.h
+.\spaceinvaders.o: ..\tm4c123gh6pm.h
+.\spaceinvaders.o: Timer1_Driver.h
+.\spaceinvaders.o: Random.h
+.\spaceinvaders.o: TExaS.h
+.\spaceinvaders.o: C:\Keil\ARM\ARMCC\bin\..\include\time.h
+.\spaceinvaders.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
