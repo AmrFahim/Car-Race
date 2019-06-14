@@ -1,6 +1,7 @@
 #include "ADC_Driver.h"
 
-double ADC1_Result=0;
+double ADC1_Result = 0 ;
+
 void ADC1Seq3_Handler(void){
 	 ADC1_Result= ADC1_SSFIFO3_R; 
 	 ADC1_ISC_R |=(1<<3);

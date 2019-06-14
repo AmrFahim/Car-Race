@@ -3,7 +3,7 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
-C:\Keil\Labware\Race Game Modified\SpaceInvaders.uvproj
+C:\Keil\Labware\Car Race\SpaceInvaders.uvproj
 Project File Date:  06/10/2019
 
 <h2>Output:</h2>
@@ -12,42 +12,42 @@ assembling startup.s...
 compiling Nokia5110.c...
 assembling random.s...
 compiling SpaceInvaders.c...
-Game_Driver.h(1): warning:  #1295-D: Deprecated declaration startGame - give arg types
-  void startGame() ;
-Game_Driver.h(2): warning:  #1295-D: Deprecated declaration fixDataValues - give arg types
-  void fixDataValues() ;
-Game_Driver.h(3): warning:  #1295-D: Deprecated declaration goSlowToRight - give arg types
-  void goSlowToRight() ;
-Game_Driver.h(4): warning:  #1295-D: Deprecated declaration goSlowToLeft - give arg types
-  void goSlowToLeft() ;
-Game_Driver.h(5): warning:  #1295-D: Deprecated declaration goFastToRight - give arg types
-  void goFastToRight() ;
-Game_Driver.h(6): warning:  #1295-D: Deprecated declaration goFastToLeft - give arg types
-  void goFastToLeft() ;
-Game_Driver.h(7): warning:  #1295-D: Deprecated declaration fixBorder - give arg types
-  void fixBorder() ;
-Game_Driver.h(8): warning:  #1295-D: Deprecated declaration firstCar - give arg types
-  void firstCar() ;
-Game_Driver.h(9): warning:  #1295-D: Deprecated declaration sacondCar - give arg types
-  void sacondCar() ;
-Game_Driver.h(10): warning:  #1295-D: Deprecated declaration displayImage - give arg types
-  void displayImage() ;
-Game_Driver.h(11): warning:  #1295-D: Deprecated declaration carCrash - give arg types
-  void carCrash ()  ;
-Game_Driver.h(12): warning:  #1295-D: Deprecated declaration game_over - give arg types
-  void game_over() ;
-Game_Driver.h(13): warning:  #1295-D: Deprecated declaration speed - give arg types
-  void speed () ;
+GPIO_Driver.h(3): warning:  #1-D: last line of file ends without a newline
+  void PortF_Init(void);
 delay_lib.h(2): warning:  #1-D: last line of file ends without a newline
   void Delay100ms(unsigned long count); // time delay in 0.1 seconds
 Timer1_Driver.h(2): warning:  #1295-D: Deprecated declaration Timer1_Init - give arg types
   void Timer1_Init();
-SpaceInvaders.c(79): warning:  #223-D: function "Nokia5110_ClearBuffer" declared implicitly
-                Nokia5110_ClearBuffer();         
+Game_Driver.h(12): warning:  #1295-D: Deprecated declaration startGame - give arg types
+  void startGame() ;
+Game_Driver.h(13): warning:  #1295-D: Deprecated declaration fixDataValues - give arg types
+  void fixDataValues() ;
+Game_Driver.h(14): warning:  #1295-D: Deprecated declaration goSlowToRight - give arg types
+  void goSlowToRight() ;
+Game_Driver.h(15): warning:  #1295-D: Deprecated declaration goSlowToLeft - give arg types
+  void goSlowToLeft() ;
+Game_Driver.h(16): warning:  #1295-D: Deprecated declaration goFastToRight - give arg types
+  void goFastToRight() ;
+Game_Driver.h(17): warning:  #1295-D: Deprecated declaration goFastToLeft - give arg types
+  void goFastToLeft() ;
+Game_Driver.h(18): warning:  #1295-D: Deprecated declaration fixBorder - give arg types
+  void fixBorder() ;
+Game_Driver.h(19): warning:  #1295-D: Deprecated declaration firstCar - give arg types
+  void firstCar() ;
+Game_Driver.h(20): warning:  #1295-D: Deprecated declaration sacondCar - give arg types
+  void sacondCar() ;
+Game_Driver.h(21): warning:  #1295-D: Deprecated declaration displayImage - give arg types
+  void displayImage() ;
+Game_Driver.h(22): warning:  #1295-D: Deprecated declaration carCrash - give arg types
+  void carCrash ()  ;
+Game_Driver.h(23): warning:  #1295-D: Deprecated declaration game_over - give arg types
+  void game_over() ;
+Game_Driver.h(24): warning:  #1295-D: Deprecated declaration speed - give arg types
+  void speed () ;
 SpaceInvaders.c: 16 warnings, 0 errors
 compiling TExaS.c...
 compiling ADC_Driver.c...
-ADC_Driver.c(33): warning:  #1-D: last line of file ends without a newline
+ADC_Driver.c(34): warning:  #1-D: last line of file ends without a newline
   }
 ADC_Driver.c: 1 warning, 0 errors
 compiling Timer1_Driver.c...
@@ -69,47 +69,43 @@ delay_lib.c(11): warning:  #1-D: last line of file ends without a newline
   }
 delay_lib.c: 2 warnings, 0 errors
 compiling Game_Driver.c...
-Game_Driver.h(1): warning:  #1295-D: Deprecated declaration startGame - give arg types
-  void startGame() ;
-Game_Driver.h(2): warning:  #1295-D: Deprecated declaration fixDataValues - give arg types
-  void fixDataValues() ;
-Game_Driver.h(3): warning:  #1295-D: Deprecated declaration goSlowToRight - give arg types
-  void goSlowToRight() ;
-Game_Driver.h(4): warning:  #1295-D: Deprecated declaration goSlowToLeft - give arg types
-  void goSlowToLeft() ;
-Game_Driver.h(5): warning:  #1295-D: Deprecated declaration goFastToRight - give arg types
-  void goFastToRight() ;
-Game_Driver.h(6): warning:  #1295-D: Deprecated declaration goFastToLeft - give arg types
-  void goFastToLeft() ;
-Game_Driver.h(7): warning:  #1295-D: Deprecated declaration fixBorder - give arg types
-  void fixBorder() ;
-Game_Driver.h(8): warning:  #1295-D: Deprecated declaration firstCar - give arg types
-  void firstCar() ;
-Game_Driver.h(9): warning:  #1295-D: Deprecated declaration sacondCar - give arg types
-  void sacondCar() ;
-Game_Driver.h(10): warning:  #1295-D: Deprecated declaration displayImage - give arg types
-  void displayImage() ;
-Game_Driver.h(11): warning:  #1295-D: Deprecated declaration carCrash - give arg types
-  void carCrash ()  ;
-Game_Driver.h(12): warning:  #1295-D: Deprecated declaration game_over - give arg types
-  void game_over() ;
-Game_Driver.h(13): warning:  #1295-D: Deprecated declaration speed - give arg types
-  void speed () ;
 GPIO_Driver.h(3): warning:  #1-D: last line of file ends without a newline
   void PortF_Init(void);
-Game_Driver.c(36): warning:  #223-D: function "EnableInterrupts" declared implicitly
-        EnableInterrupts();  
-Game_Driver.c(38): warning:  #223-D: function "ADC1_INIT" declared implicitly
-        ADC1_INIT();
-Game_Driver.c(41): warning:  #223-D: function "Timer1_Init" declared implicitly
-    Timer1_Init();
-Game_Driver.c(159): warning:  #223-D: function "Delay100ms" declared implicitly
-                                 Delay100ms(250);
-Game_Driver.c: 18 warnings, 0 errors
+delay_lib.h(2): warning:  #1-D: last line of file ends without a newline
+  void Delay100ms(unsigned long count); // time delay in 0.1 seconds
+Timer1_Driver.h(2): warning:  #1295-D: Deprecated declaration Timer1_Init - give arg types
+  void Timer1_Init();
+Game_Driver.h(12): warning:  #1295-D: Deprecated declaration startGame - give arg types
+  void startGame() ;
+Game_Driver.h(13): warning:  #1295-D: Deprecated declaration fixDataValues - give arg types
+  void fixDataValues() ;
+Game_Driver.h(14): warning:  #1295-D: Deprecated declaration goSlowToRight - give arg types
+  void goSlowToRight() ;
+Game_Driver.h(15): warning:  #1295-D: Deprecated declaration goSlowToLeft - give arg types
+  void goSlowToLeft() ;
+Game_Driver.h(16): warning:  #1295-D: Deprecated declaration goFastToRight - give arg types
+  void goFastToRight() ;
+Game_Driver.h(17): warning:  #1295-D: Deprecated declaration goFastToLeft - give arg types
+  void goFastToLeft() ;
+Game_Driver.h(18): warning:  #1295-D: Deprecated declaration fixBorder - give arg types
+  void fixBorder() ;
+Game_Driver.h(19): warning:  #1295-D: Deprecated declaration firstCar - give arg types
+  void firstCar() ;
+Game_Driver.h(20): warning:  #1295-D: Deprecated declaration sacondCar - give arg types
+  void sacondCar() ;
+Game_Driver.h(21): warning:  #1295-D: Deprecated declaration displayImage - give arg types
+  void displayImage() ;
+Game_Driver.h(22): warning:  #1295-D: Deprecated declaration carCrash - give arg types
+  void carCrash ()  ;
+Game_Driver.h(23): warning:  #1295-D: Deprecated declaration game_over - give arg types
+  void game_over() ;
+Game_Driver.h(24): warning:  #1295-D: Deprecated declaration speed - give arg types
+  void speed () ;
+Game_Driver.c: 16 warnings, 0 errors
 linking...
 Program Size: Code=6332 RO-data=1652 RW-data=120 ZI-data=1912  
-".\SpaceInvaders.axf" - 0 Error(s), 41 Warning(s).
-Load "C:\\Keil\\Labware\\Race Game Modified\\SpaceInvaders.axf" 
+".\SpaceInvaders.axf" - 0 Error(s), 39 Warning(s).
+Load "C:\\Keil\\Labware\\Car Race\\SpaceInvaders.axf" 
 Connecting: Mode=JTAG, Speed=1000000Hz
 Erase Done.
 Programming Done.
@@ -117,4 +113,4 @@ Verify OK.
 </pre>
 </body>
 </html>
-rget DLL has been cancelled
+\SpaceInvaders.axf" - 0 Error(s), 41 Warning(s).

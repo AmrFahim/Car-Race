@@ -1,6 +1,6 @@
 #include "Timer1_Driver.h"
 
-unsigned short score=0;
+unsigned short score  = 0 ;
 void Timer1A_Handler(){
       TIMER1_ICR_R|=(1<<0);       //clear the flag
 			score++;
