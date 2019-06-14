@@ -4,7 +4,7 @@ double ADC1_Result = 0 ;
 
 void ADC1Seq3_Handler(void){
 	 ADC1_Result= ADC1_SSFIFO3_R; 
-	 ADC1_ISC_R |=(1<<3);
+	 ADC1_ISC_R |=(1<<3) ;
 }
 
 void ADC1_INIT(void){

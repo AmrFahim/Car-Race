@@ -21,4 +21,5 @@ void Timer1_Init(){
   NVIC_PRI5_R |= (1<<13);	           //set the priority to 1
 	
 	TIMER1_CTL_R |=(1<<0);             //Timer1 A is Enabled.
+	
 } 

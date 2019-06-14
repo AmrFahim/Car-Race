@@ -1,6 +1,6 @@
 #include "GPIO_Driver.h"
 long start = 0 ;
-
+extern unsigned short score;
 void PortF_Init(void){ volatile unsigned long delay;
   SYSCTL_RCGC2_R |= 0x00000020;     // 1) F clock
   delay = SYSCTL_RCGC2_R;           // delay   
@@ -37,5 +37,7 @@ void PortB_Init(void){ volatile unsigned long delay;
 
 void GPIOPortB_Handler (){
 	  GPIO_PORTB_ICR_R |= (1 << 1 );
+		if ( !start ) score = 0 ;
 		start = 1 ;			
+		
 }	

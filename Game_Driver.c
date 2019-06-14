@@ -51,11 +51,12 @@ void startGame(){
 
 void fixDataValues() {
 					
-		     if( flag== 1 ){ 
-					 falling = 68;
-					 score=0;
+		     if( flag == 1 ){ 
+						falling = 68;
+						falling2 = 68 ;
+						score=0;
 						loss=0; 
-					 flag = 0;
+						flag = 0;
 					 findCar2 = 0 ;
 			    }			 
 			
